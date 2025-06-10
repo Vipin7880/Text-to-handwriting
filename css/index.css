@@ -4,36 +4,38 @@ body {
   margin: 0px;
 }
 body {
-  --background-primary: #102ef2;
-  --font-color-primary: #ffffff;
-  --elevation-background: #324e70;
-  --link-color: #006eb8;
-  --font-family-primary: 'Roboto', Arial;
+  --background-primary: #f7f9fc;
+  --font-color-primary: #1a1a1a;
+  --elevation-background: #ffffff;
+  --link-color: #007bff;
+  --font-family-primary: 'Roboto', Arial, sans-serif;
   --handwriting-font: 'Homemade Apple', cursive;
-  --primary-color: #1a73e8;
-  --ink-color: #000f55;
-  --label-color: #333;
-  --field-borders: #e0e0e0;
-  --primary-button-bg: #1d1d1d;
-  --primary-button-color: #eee;
-  --font-color-delete: #dc3545;
-  --delete-button-borders: #dc3545;
+  --primary-color: #2563eb;
+  --ink-color: #0f172a;
+  --label-color: #4b5563;
+  --field-borders: #d1d5db;
+  --primary-button-bg: #2563eb;
+  --primary-button-color: #ffffff;
+  --font-color-delete: #ef4444;
+  --delete-button-borders: #ef4444;
 
   width: 100%;
   overflow-x: hidden;
 }
+
 body.dark {
-  --background-primary: #225b7d;
-  --font-color-primary: #ffffff;
-  --elevation-background: #1d1d1d;
-  --link-color: #09f;
-  --label-color: #aaa;
-  --field-borders: #222;
-  --primary-button-bg: #eee;
-  --primary-button-color: #111;
-  --delete-button-borders: #e76f7b;
-  --font-color-delete: #e76f7b;
+  --background-primary: #0f172a;
+  --font-color-primary: #f8fafc;
+  --elevation-background: #1e293b;
+  --link-color: #3b82f6;
+  --label-color: #94a3b8;
+  --field-borders: #334155;
+  --primary-button-bg: #3b82f6;
+  --primary-button-color: #f8fafc;
+  --delete-button-borders: #f87171;
+  --font-color-delete: #f87171;
 }
+
 
 /* add font file here n fonts folder  */
 @font-face {
